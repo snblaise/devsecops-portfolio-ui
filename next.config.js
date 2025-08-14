@@ -13,9 +13,7 @@ const withPWA = WithPWA({
   sw: "service-worker.js",
 });
 
-/**
- * @type {import('next').NextConfig}
- */
+/** @type {any} */
 const config = withPWA({
   reactStrictMode: true,
   output: 'export',
